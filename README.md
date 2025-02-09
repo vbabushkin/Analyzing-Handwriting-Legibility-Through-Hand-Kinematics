@@ -39,4 +39,18 @@ The code can be run in two ways.
   - to run search for optimal window manually (e.g. for expert 1):
     ```bash
     python param_search_win.py 1
-
+  - to manually plot results of optimal window search for all experts:
+    ```bash
+    python param_search_win_all.py 
+  - to manually evaluate the model (e.g. for expert 1 with stylus features. Note there are three modes "all", "hand" and "stylus"):
+    ```bash
+    python model_eval_cv.py 1 "stylus"
+  - to manually calculate Shapley values (e.g. for expert 3):
+    ```bash
+    python param_search_win.py 3 
+  - to manually plot Shapley values (e.g. for expert 2):
+    ```bash
+    python plot_shapley_values.py 2
+  - to conduct statistical analysis for all experts:
+    ```bash
+    python plot_shapley_values.py 
