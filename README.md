@@ -1,4 +1,16 @@
 # Analyzing Handwriting Legibility Through Hand Kinematics
+
+**Vahan Babushkin**<sup>1,3</sup>, **Haneen Alsuradi**<sup>1</sup>, **Muhamed Osman Al-Khalil**<sup>2</sup> and  
+**Mohamad Eid**<sup>1*</sup>
+
+<sup>1</sup> *Applied Interactive Multimedia Lab, Engineering Division, New York University Abu Dhabi, United Arab Emirates*  
+<sup>2</sup> *Arabic Studies program, New York University Abu Dhabi, United Arab Emirates*  
+<sup>3</sup> *Tandon School of Engineering, New York University, New York, NY, USA*  
+
+**Correspondence<sup>*</sup>:**  
+Mohamad Eid  
+[mohamad.eid@nyu.edu](mailto:mohamad.eid@nyu.edu)
+
 ### Abstract
 **Introduction:** Handwriting is a complex skill that requires coordination between human motor system, sensory perception, cognitive processing, memory retrieval, and linguistic proficiency. Various aspects of hand and stylus kinematics can affect the legibility of a handwritten text. Assessing handwriting legibility is challenging due to variations in experts' cultural and academic backgrounds, which introduce subjectivity biases in evaluations.
 	
