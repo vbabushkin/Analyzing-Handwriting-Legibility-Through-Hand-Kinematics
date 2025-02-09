@@ -22,6 +22,16 @@ Mohamad Eid
 	
 ## How to run the code
 
-The code can be run in two ways. Interactive mode -- run main.py and follow the instructions. It will ask whether the user wants to preprocess the data and then ask to enter the expert number to conduct the parameter search, model evaluation, explainability and statistical analyses. For model evaluation it will ask if the user wants to run it for 7 stylus kinematics features, 110 hand kinematics features or all 117 stylus and hand kinematics features.
+The code can be run in two ways. 
+
+- Interactive mode -- run main.py and follow the instructions. It will ask whether the user wants to preprocess the data and then ask to enter the expert number to conduct the parameter search, model evaluation, explainability and statistical analyses. For model evaluation it will ask if the user wants to run it for 7 stylus kinematics features, 110 hand kinematics features or all 117 stylus and hand kinematics features.
+
+- Manual mode -- allows to run each module separately with specifying parameters manually.
+  - to preprocess the data:
+    ```bash
+    python preprocess_data.py
+ - to run parameter search manually for expert 1:
+   ```bash
+     python param_search_win.py 1
 
 
