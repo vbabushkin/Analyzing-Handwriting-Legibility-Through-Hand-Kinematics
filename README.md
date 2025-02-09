@@ -30,8 +30,11 @@ The code can be run in two ways.
   - to preprocess the data:
     ```bash
     python preprocess_data.py
-  - to run parameter search manually for expert 1:
-   ```bash
-     python param_search_win.py 1
+  - to run search for optimal overlap manually (e.g. for expert 3):
+    ```bash
+    python param_search_ovr.py 3
+  - to run search for optimal window manually (e.g. for expert 1):
+    ```bash
+    python param_search_win.py 1
 
 
