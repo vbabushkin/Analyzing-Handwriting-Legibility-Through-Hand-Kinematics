@@ -53,4 +53,6 @@ The code can be run in two ways.
     python plot_shapley_values.py 2
   - to conduct statistical analysis for all experts:
     ```bash
-    python plot_shapley_values.py 
+    python plot_shapley_values.py
+
+Note that all results such as .csv and .pickle files are saved in RESULTS folder. Plots are saved in FIGURES folder and models are saved in MODELS folder as .h5 files.
