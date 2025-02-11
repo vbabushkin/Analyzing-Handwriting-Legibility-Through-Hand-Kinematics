@@ -36,10 +36,10 @@ The code can be run in two ways.
   - to run search for optimal window manually (e.g. for expert 1):
     ```bash
     python param_search_win.py 1
-  - to manually plot results of optimal overlap search (e.g.for expert 2):
+  - to manually plot results of optimal overlap search (e.g. for expert 2):
     ```bash
     python plot_param_search_results_ovr.py 2
-  - to manually plot results of optimal window search (e.g.for expert 3):
+  - to manually plot results of optimal window search (e.g. for expert 3):
     ```bash
     python plot_param_search_results_win.py 3
   - to manually plot results of optimal window search for all experts:
