@@ -100,7 +100,7 @@ if __name__ == "__main__":
     if not utilities.all_results_shap_values_exist(expert_arg):
         if not utilities.all_results_model_eval_exist(expert_arg, "all"):
             print(
-                f"The files necessaryfor calculating Shapley values for expert {expert_arg} are missing in RESULTS folder.Please run model_eval_cv {expert_arg}.")
+                f"The files necessary for calculating Shapley values for expert {expert_arg} are missing in RESULTS folder.Please run model_eval_cv {expert_arg}.")
         else:
             print(
                 f"Calculating Shapley values for expert {expert_arg} on model with\noptimal window {config.OPT_WIN}\noptimal overlap {config.OPT_OVR}")

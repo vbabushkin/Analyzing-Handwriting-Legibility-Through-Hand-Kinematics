@@ -63,11 +63,11 @@ def all_results_win_search_exist(expert):
 # a function to check for the required files in path_variables.RESULTS before running model_eval_cv.
 def  all_results_model_eval_exist(expert, mode):
     """Check if results exist for a given expert."""
-    model_files = [f"sh_model_fold_{ifold}_exp_{expert}_mode_{mode}.h5" for ifold in range(5)]
-    pickle_files = [f"sh_total_res_train_test_fold_{ifold}_exp_{expert}_mode_{mode}.pickle" for ifold in range(5)]
+    model_files = [f"sh_model_fold_{ifold}_exp_{expert}_{mode}.h5" for ifold in range(5)]
+    pickle_files = [f"sh_total_res_train_test_fold_{ifold}_exp_{expert}_{mode}.pickle" for ifold in range(5)]
     required_files = [os.path.join(path_variables.MODELS_PATH, file) for file in model_files]
     required_files.extend(os.path.join(path_variables.RESULTS_PATH, file) for file in pickle_files)
-    required_files.append(os.path.join(path_variables.RESULTS_PATH,f"sh_total_res_expert_{expert}_mode_{mode}.csv"))
+    required_files.append(os.path.join(path_variables.RESULTS_PATH,f"sh_total_res_expert_{expert}_{mode}.csv"))
     return all(os.path.isfile(file) for file in required_files)
 
 # a function to check for the required files in path_variables.RESULTS before running calc_shapley_values.
