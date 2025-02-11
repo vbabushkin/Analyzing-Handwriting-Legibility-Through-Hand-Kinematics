@@ -83,7 +83,7 @@ def main():
     if shap_choice == 'yes':
         if not utilities.all_results_shap_values_exist(expert):
             if not utilities.all_results_model_eval_exist(expert, mode):
-                print(f"The files necessaryfor calculating Shapley values for expert {expert} are missing in RESULTS folder.Please run model_eval_cv {expert}.")
+                print(f"The files necessary for calculating Shapley values for expert {expert} are missing in RESULTS folder.Please run model_eval_cv {expert}.")
             else:
                 print(
                     f"Calculating Shapley values for expert {expert} on model with\noptimal window {config.OPT_WIN}\noptimal overlap {config.OPT_OVR}")
