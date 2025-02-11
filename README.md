@@ -36,23 +36,26 @@ The code can be run in two ways.
   - to run search for optimal window manually (e.g. for expert 1):
     ```bash
     python param_search_win.py 1
-  - to run search for optimal window manually (e.g. for expert 1):
+  - to manually plot results of optimal overlap search (e.g.for expert 2):
     ```bash
-    python param_search_win.py 1
+    python plot_param_search_results_ovr.py 2
+  - to manually plot results of optimal window search (e.g.for expert 3):
+    ```bash
+    python plot_param_search_results_win.py 3
   - to manually plot results of optimal window search for all experts:
     ```bash
-    python param_search_win_all.py 
+    python plot_param_search_results_win_all.py 
   - to manually evaluate the model (e.g. for expert 1 with stylus features. Note there are three modes "all", "hand" and "stylus"):
     ```bash
     python model_eval_cv.py 1 "stylus"
   - to manually calculate Shapley values (e.g. for expert 3):
     ```bash
-    python param_search_win.py 3 
+    python calc_shapley_values.py 3 
   - to manually plot Shapley values (e.g. for expert 2):
     ```bash
     python plot_shapley_values.py 2
   - to conduct statistical analysis for all experts:
     ```bash
-    python plot_shapley_values.py
+    python stat_analysis.py
 
 Note that all results such as .csv and .pickle files are saved in RESULTS folder. Plots are saved in FIGURES folder and models are saved in MODELS folder as .h5 files.
