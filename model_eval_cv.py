@@ -39,9 +39,6 @@ if physical_devices:
 
 
 def model_eval_cv(expert, mode):
-    """
-    Search for best window using stratified k-fold cross-validation.
-    """
     X, Y, subjInfo = utilities.load_data()
     print(f"Evaluating model with expert {expert} labels for {mode}.")
     exp_subj_info = np.zeros((subjInfo.shape[0], 3))
