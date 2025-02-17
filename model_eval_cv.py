@@ -207,8 +207,7 @@ def model_eval_cv(expert, mode):
 
     # plot confusion matrix
     # calculate and plot average confusion matrix
-    avgCm = np.mean(np.array(cmPerFold), axis=0)
-    filename = 'avg_cm_5_folds_exp_' + str(expert) + "_" + str(mode) + ".pdf"
+    filename = 'avg_cm_5_folds_exp_' + str(expert) + "_" + str(mode)
     utilities.plot_avg_cm(cmPerFold, path_variables.FIGURES_PATH, filename, classNames=np.unique(y_train))
 
 if __name__ == "__main__":
