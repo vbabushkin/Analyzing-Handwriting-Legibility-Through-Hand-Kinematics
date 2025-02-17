@@ -47,7 +47,7 @@ The code can be run in two ways.
     python plot_param_search_results_win_all.py 
   - to manually evaluate the model (e.g. for expert 1 with stylus features. Note there are three modes "all", "hand" and "stylus"):
     ```bash
-    python model_eval_cv.py 1 "stylus"
+    python model_eval_cv.py 1 stylus
   - to manually calculate Shapley values (e.g. for expert 3):
     ```bash
     python calc_shapley_values.py 3 
